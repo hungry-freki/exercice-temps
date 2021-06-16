@@ -12,6 +12,7 @@ def time(h, m, s):
             m = m % 60
             h = min + h
     return (h, m, s)
+
 __name__=="__main__"
 
-print(time[1, 60, 60])
+print(time.argv[1, 1, 1])
