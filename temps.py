@@ -1,4 +1,3 @@
-import sys
 
 def time(h, m, s):
 
@@ -11,8 +10,6 @@ def time(h, m, s):
             min = m // 60
             m = m % 60
             h = min + h
-    return (h, m, s)
+    print(h, "heures,", m, "minutes, ", s, "secondes")
 
-__name__=="__main__"
-
-print(time.argv[1, 1, 1])
+time(400-71, 40+6, 10*5)
